@@ -78,7 +78,7 @@ class Projects extends Component {
         <WorkThumbNail
           thumbnail={gestureThumbnail}
           title={"Gestural Code Editor"}
-          link={"https://adoring-euclid-bf0df0.netlify.com/"}
+          link={"https://www.alineofco.de/"}
         />
         <WorkThumbNail
           thumbnail={perf_thumbnail}
