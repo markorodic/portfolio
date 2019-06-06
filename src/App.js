@@ -77,9 +77,14 @@ class Projects extends Component {
       <div className="projects">
         <WorkThumbNail
           thumbnail={gestureThumbnail}
-          title={"Gesture Interface"}
+          title={"Gestural Code Editor"}
+          link={"https://adoring-euclid-bf0df0.netlify.com/"}
         />
-        <WorkThumbNail thumbnail={perf_thumbnail} title={"Performance Game"} />
+        <WorkThumbNail
+          thumbnail={perf_thumbnail}
+          title={"JavasScript Performance Game"}
+          link={"http://www.thebrickbreak.com/"}
+        />
       </div>
     );
   }
@@ -102,10 +107,10 @@ class Title extends Component {
 class WorkThumbNail extends Component {
   render() {
     return (
-      <button className="work-thumbnail">
+      <a className="work-thumbnail" href={this.props.link}>
         <img src={this.props.thumbnail} alt="" />
         <label>{this.props.title}</label>
-      </button>
+      </a>
     );
   }
 }
