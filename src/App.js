@@ -82,7 +82,7 @@ class Projects extends Component {
         />
         <WorkThumbNail
           thumbnail={perf_thumbnail}
-          title={"JavasScript Performance Game"}
+          title={"JavaScript Performance Game"}
           link={"http://www.thebrickbreak.com/"}
         />
       </div>
