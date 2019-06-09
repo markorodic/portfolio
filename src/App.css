@@ -26,9 +26,33 @@ body {
   display: flex;
 }
 
+.email {
+  margin: 1rem 2rem;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.email a{
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.email a:hover {
+  background: black;
+  color: white;
+}
+
 .title {
   margin: 0 2rem 7rem 2rem;
   text-align: center;
+}
+
+.title h3 {
+  font-size: 1rem;
 }
 
 h1 {
@@ -85,10 +109,10 @@ header h2 {
   margin: 1.75rem 0;
 }
 
-a {
+/* a {
   color: #252525;
   text-decoration: none;
-}
+} */
 
 button:focus {outline:0;}
 

@@ -7,6 +7,9 @@ import perf_thumbnail from "./perf_thumbnail.gif";
 function App() {
   return (
     <div className="App">
+      <div className="email">
+        <a href="mailto:mrmarkorodic@gmail.com?Subject=Hello%20👋">email</a>
+      </div>
       <Hero />
       <Main />
     </div>
@@ -39,37 +42,37 @@ class Main extends Component {
   }
 }
 
-class Header extends Component {
-  render() {
-    return (
-      <div className="header">
-        <h2 className="title">Marko Rodic</h2>
-        <Nav />
-      </div>
-    );
-  }
-}
+// class Header extends Component {
+//   render() {
+//     return (
+//       <div className="header">
+//         <h2 className="title">Marko Rodic</h2>
+//         <Nav />
+//       </div>
+//     );
+//   }
+// }
 
-class Nav extends Component {
-  render() {
-    return (
-      <ul className="nav">
-        <li>
-          <a>All</a>
-        </li>
-        <li>
-          <a>Technical</a>
-        </li>
-        <li>
-          <a>Design</a>
-        </li>
-        <li>
-          <a>Product</a>
-        </li>
-      </ul>
-    );
-  }
-}
+// class Nav extends Component {
+//   render() {
+//     return (
+//       <ul className="nav">
+//         <li>
+//           <a>All</a>
+//         </li>
+//         <li>
+//           <a>Technical</a>
+//         </li>
+//         <li>
+//           <a>Design</a>
+//         </li>
+//         <li>
+//           <a>Product</a>
+//         </li>
+//       </ul>
+//     );
+//   }
+// }
 
 class Projects extends Component {
   render() {
