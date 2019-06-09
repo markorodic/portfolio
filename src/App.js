@@ -79,14 +79,14 @@ class Projects extends Component {
     return (
       <div className="projects">
         <WorkThumbNail
-          thumbnail={gestureThumbnail}
-          title={"Gestural Code Editor"}
-          link={"https://www.alineofco.de/"}
-        />
-        <WorkThumbNail
           thumbnail={perf_thumbnail}
           title={"JavaScript Performance Game"}
           link={"http://www.thebrickbreak.com/"}
+        />
+        <WorkThumbNail
+          thumbnail={gestureThumbnail}
+          title={"Gestural Code Editor"}
+          link={"https://www.alineofco.de/"}
         />
       </div>
     );
