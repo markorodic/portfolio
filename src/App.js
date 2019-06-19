@@ -86,7 +86,7 @@ class Projects extends Component {
         <WorkThumbNail
           thumbnail={gestureThumbnail}
           title={"Gestural Code Editor"}
-          link={"https://www.alineofco.de/"}
+          link={"https://drawlin.es/"}
         />
       </div>
     );
