@@ -81,12 +81,12 @@ class Projects extends Component {
         <WorkThumbNail
           thumbnail={perf_thumbnail}
           title={"JavaScript Performance Game"}
-          link={"http://www.thebrickbreak.com/"}
+          link={"https://markorodic.github.io/the-brick-break/"}
         />
         <WorkThumbNail
           thumbnail={gestureThumbnail}
           title={"Gestural Code Editor"}
-          link={"https://drawlin.es/"}
+          link={"https://markorodic.github.io/lines_of_code/"}
         />
       </div>
     );
