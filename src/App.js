@@ -62,20 +62,6 @@ class Projects extends Component {
   }
 }
 
-class Title extends Component {
-  render() {
-    return (
-      <div className="hero">
-        <h2 className="title">Marko Rodic</h2>
-        <div className="description">
-          I'm a developer and a designer. I attended the Recurse Center in New
-          York for 3 months. During this time...
-        </div>
-      </div>
-    );
-  }
-}
-
 class WorkThumbNail extends Component {
   render() {
     return (
