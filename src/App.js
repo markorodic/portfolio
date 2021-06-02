@@ -20,7 +20,10 @@ class Hero extends Component {
     return (
       <div className="splash">
         <section className="title">
-          <h1>👋, I'm Marko</h1>
+          <span role="img" aria-label="wave-emoji">
+            👋
+          </span>
+          <h1>I'm Marko</h1>
           <h3>
             These are some of the projects I worked on at the Recurse Center
           </h3>
@@ -34,7 +37,6 @@ class Main extends Component {
   render() {
     return (
       <div className="main">
-        {/* <Header /> */}
         <Projects />
       </div>
     );
